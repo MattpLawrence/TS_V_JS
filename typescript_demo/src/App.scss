@@ -1,0 +1,24 @@
+.App{
+    display: flex;
+
+}
+
+.SideNav{
+    width: 12rem;
+}
+
+.mainContent{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2rem;
+    background-color: rgb(245, 237, 237);
+    min-height: 100vh;
+    width: calc(100vw - 12rem);
+
+    > * {
+        padding: 1rem;
+        width: calc(100% - 2rem);
+        background-color: white;
+    }
+}

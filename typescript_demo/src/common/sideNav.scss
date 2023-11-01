@@ -1,0 +1,27 @@
+
+
+//remove when remove scroll div
+.scroll{
+    height: 110vh;
+    width: 2rem;
+}
+
+#bcsLogo{
+    margin: 1rem .5rem;
+    width: calc( 100% - 1rem);
+}
+
+nav li{
+    color: black;
+
+    //specify icon color
+    .MuiListItemIcon-root{
+        color: black;
+    }
+    //specify text weight
+    .MuiListItemText-root {
+        > *{
+            font-weight: 500;
+        }
+    }
+}
